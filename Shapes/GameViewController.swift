@@ -92,7 +92,6 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, UIAl
         banner.adUnitID = "your_banner_id"
         banner.rootViewController = self
         let req: GADRequest = GADRequest()
-//                req.testDevices = ["b9555a1f53755a0fe3fa9f861b3a6de5"]
         banner.load(req)
         banner.frame = CGRect(x: (view.bounds.width - banner.frame.width)/2, y: view.bounds.height - banner.frame.size.height, width: banner.frame.width, height: banner.frame.height)
     }
@@ -101,7 +100,6 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, UIAl
         interstitial = GADInterstitial(adUnitID: "your_interstitial_id")
         interstitial.delegate = self
         let request = GADRequest()
-//                request.testDevices = ["b9555a1f53755a0fe3fa9f861b3a6de5"]
         interstitial.load(request)
     }
     
