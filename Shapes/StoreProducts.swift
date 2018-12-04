@@ -12,7 +12,7 @@ import StoreKit
 //MARK: Add your products here
 
 struct ProductList {
-    static let Option_nonconsumable    : String = "CuBI.com.HyperBrick.Final"
+    static let Option_nonconsumable    : String = "your_optional_nonconsumable"
     static let products = [Option_nonconsumable]
 }
 
