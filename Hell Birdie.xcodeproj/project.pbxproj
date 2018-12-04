@@ -67,7 +67,6 @@
 		34D2DAB61DBF1D8900D87E4B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2DAB51DBF1D8900D87E4B /* UIView+Extension.swift */; };
 		34D2DAB91DBF201000D87E4B /* StoreProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2DAB81DBF201000D87E4B /* StoreProducts.swift */; };
 		34D2DABB1DBF202C00D87E4B /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2DABA1DBF202C00D87E4B /* StoreManager.swift */; };
-		34D2DABE1DC48AE500D87E4B /* fall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34D2DABD1DC48AE500D87E4B /* fall.wav */; };
 		34D2DAC41DC56E9100D87E4B /* FunnyDie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34D2DAC31DC56E9100D87E4B /* FunnyDie.wav */; };
 		34D2DAC61DC5852B00D87E4B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2DAC51DC5852B00D87E4B /* GameKit.framework */; };
 		34D2DAC81DC5853400D87E4B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2DAC71DC5853400D87E4B /* StoreKit.framework */; };
@@ -174,7 +173,6 @@
 		34D2DAB51DBF1D8900D87E4B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		34D2DAB81DBF201000D87E4B /* StoreProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreProducts.swift; sourceTree = "<group>"; };
 		34D2DABA1DBF202C00D87E4B /* StoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
-		34D2DABD1DC48AE500D87E4B /* fall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fall.wav; path = "../../../GameArt/Sounds/The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala/Movement/Falling Sounds/fall.wav"; sourceTree = "<group>"; };
 		34D2DAC31DC56E9100D87E4B /* FunnyDie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FunnyDie.wav; sourceTree = "<group>"; };
 		34D2DAC51DC5852B00D87E4B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		34D2DAC71DC5853400D87E4B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -337,7 +335,6 @@
 				3452F9EA1DCECA1100F86D57 /* woosh.wav */,
 				341434AD1DBD581300F39019 /* button_click.wav */,
 				34D924F01DD43E480000A476 /* woosh_2.wav */,
-				34D2DABD1DC48AE500D87E4B /* fall.wav */,
 				341434AB1DBD57A200F39019 /* new_game.wav */,
 				341434A11DBCAB5700F39019 /* point.wav */,
 				3452F9F21DCEDBD500F86D57 /* coin4.wav */,
@@ -525,7 +522,6 @@
 				3452F9EF1DCEDA2E00F86D57 /* coin.wav in Resources */,
 				34D2DAD01DC70F5A00D87E4B /* next_to_you.mp3 in Resources */,
 				341434A21DBCAB5700F39019 /* point.wav in Resources */,
-				34D2DABE1DC48AE500D87E4B /* fall.wav in Resources */,
 				341434A61DBD51B300F39019 /* point2.wav in Resources */,
 				34D924FF1DD469770000A476 /* misc_menu_4.wav in Resources */,
 				341434A01DBCA7B200F39019 /* jump2.wav in Resources */,
