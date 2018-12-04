@@ -89,7 +89,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, UIAl
     
     func loadBanner() {
         banner = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
-        banner.adUnitID = "ca-app-pub-6518422758055129/5303349699"
+        banner.adUnitID = "your_banner_id"
         banner.rootViewController = self
         let req: GADRequest = GADRequest()
 //                req.testDevices = ["b9555a1f53755a0fe3fa9f861b3a6de5"]
@@ -98,7 +98,7 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate, UIAl
     }
     
     func loadInterstitial() {
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-6518422758055129/6780082899")
+        interstitial = GADInterstitial(adUnitID: "your_interstitial_id")
         interstitial.delegate = self
         let request = GADRequest()
 //                request.testDevices = ["b9555a1f53755a0fe3fa9f861b3a6de5"]
